@@ -1,5 +1,5 @@
 let money = prompt('Введите сумму вклада');
-let percent = (100 + (+prompt('Введите процент по вкладу'))) / 100;
+let percent = 1 + prompt('Введите процент по вкладу') / 100;
 
 for (let i = 1; i <= 5; i++) {
     money *= percent;
